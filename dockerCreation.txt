@@ -1,0 +1,10 @@
+
+DockerFile ---------------------> Docker Image---------------------> Docker Container
+                   build                                run                                        
+
+
+Create Docker image with automated build
+
+create dockerfile                      push the dockerfile              Select the project form your                                    Build starts in                     docker image gets                    Run a contianer from the image 
+on your workstation ------------------> to Github     -----------------> Github repositories on docker hub to build -------------------> docker hub-----------------------> ready for the pull------------------>on your worksttion
+                         git push                     git resp to build                                                  Trigger build                     Image created                          pull images
